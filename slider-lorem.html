@@ -47,14 +47,23 @@ Example:
     Polymer({
       is: "slider-lorem",
       properties: {
+        /**
+        * Number of words displayed
+        */
         words: {
           type: Number,
           value: 50
         },
+        /**
+        * The lorem ipsum text to be displayed
+        */
         lorem: {
         	type: String,
         	value: ""
         },
+        /**
+        * How many words are added on each slider change
+        */
         multiplier: {
         	type: Number,
         	value: 1
@@ -63,6 +72,9 @@ Example:
       ready: function() {
       	this.updateLorem();
       },
+      /**
+      * Updates the lorem ipsum text
+      */
       updateLorem: function() {
       	this.lorem = "";
       	wordsLeft = this.words * this.multiplier;
