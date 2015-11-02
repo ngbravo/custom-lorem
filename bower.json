@@ -1,0 +1,29 @@
+{
+  "name": "slider-lorem",
+  "version": "0.0.1",
+  "authors": [
+    "Nikolas Bravo <nikolasbra@gmail.com>"
+  ],
+  "description": "An element with a slider to create custom and dinamicly-sized lorem ipsum texts.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "lorem",
+    "ipsum",
+    "slider"
+  ],
+  "main": "slider-lorem.html",
+  "license": "https://github.com/ngbravo/slider-lorem/blob/master/LICENSE",
+  "homepage": "https://github.com/ngbravo/slider-lorem/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
